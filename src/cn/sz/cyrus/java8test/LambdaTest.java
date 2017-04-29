@@ -1,7 +1,6 @@
 package cn.sz.cyrus.java8test;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
@@ -9,13 +8,7 @@ import java.util.function.Consumer;
 
 public class LambdaTest {
 
-	static class FunctionTest{
-		public FunctionTest(IFunctionalTest iFunctionalTest) {
-			this.iFunctionalTest = iFunctionalTest;
-		}
-		
-		IFunctionalTest iFunctionalTest;
-	}
+	
 	 void test1(){
 		Arrays.asList("c","a","b","d").forEach(e->System.out.print(e));
 		System.out.println();
