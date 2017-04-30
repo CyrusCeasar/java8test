@@ -1,4 +1,4 @@
-package cn.sz.cyrus.java8test;
+package cn.sz.cyrus.java8test.lambda;
 
 import java.util.Random;
 
@@ -17,5 +17,9 @@ public class People {
 	
 	public String getName(){
 		return name;
+	}
+	
+	public int getAge(){
+		return age;
 	}
 }
